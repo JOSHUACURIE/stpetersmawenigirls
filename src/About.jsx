@@ -21,10 +21,10 @@ export const About = () => {
                     setIsVisible(true);
                     // Start counters when section is visible
                     if (isVisible) {
-                        animateCounter(2000, setStudentsCount, 2000);
-                        animateCounter(150, setAwardsCount, 2500);
-                        animateCounter(35, setProgramsCount, 2000);
-                        animateCounter(98, setAcceptanceRate, 1800);
+                        animateCounter(200, setStudentsCount, 200);
+                        animateCounter(15, setAwardsCount, 2500);
+                        animateCounter(5, setProgramsCount, 200);
+                        animateCounter(98, setAcceptanceRate, 180);
                     }
                 }
             },
