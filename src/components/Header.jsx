@@ -1,5 +1,6 @@
 import './header.css';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 export const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -22,9 +23,10 @@ export const Header = () => {
         <header className={`header-container ${scrolled ? 'scrolled' : ''}`}>
             <div className='header'>
                 <div className="logo-container">
-                    {/* Add your logo image here if needed */}
-                    {/* <img src="/path/to/logo.png" alt="School Logo" className="school-logo" /> */}
-                    <h1 className='school-name'>St Peters Maweni Girls</h1>
+                    {/* Use Link for the logo as well */}
+                    <Link to="/" className="school-name" onClick={handleLinkClick}>
+                        St Peters Maweni Girls
+                    </Link>
                 </div>
 
                 <button 
@@ -40,11 +42,12 @@ export const Header = () => {
 
                 <nav className={`nav-container ${menuOpen ? 'open' : ''}`}>
                     <ul className='nav-links'>
-                        <li><a href="/" className="nav-link" onClick={handleLinkClick}>HOME</a></li>
-                        <li><a href="/services" className="nav-link" onClick={handleLinkClick}>SERVICES</a></li>
-                        <li><a href="/gallery" className="nav-link" onClick={handleLinkClick}>GALLERY</a></li>
-                        <li><a href="/contact" className="nav-link" onClick={handleLinkClick}>CONTACT US</a></li>
-                        <li><a href="/about" className="nav-link" onClick={handleLinkClick}>ABOUT</a></li>
+                        {/* Replace <a> tags with <Link> components */}
+                        <li><Link to="/" className="nav-link" onClick={handleLinkClick}>HOME</Link></li>
+                        <li><Link to="/services" className="nav-link" onClick={handleLinkClick}>SERVICES</Link></li>
+                        <li><Link to="/gallery" className="nav-link" onClick={handleLinkClick}>GALLERY</Link></li>
+                        <li><Link to="/contact" className="nav-link" onClick={handleLinkClick}>CONTACT US</Link></li>
+                        <li><Link to="/about" className="nav-link" onClick={handleLinkClick}>ABOUT</Link></li>
                     </ul>
                 </nav>
             </div>
