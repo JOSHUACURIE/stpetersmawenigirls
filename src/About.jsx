@@ -98,18 +98,8 @@ export const About = () => {
                             <div className="timeline-year">2024</div>
                             <div className="timeline-desc">School founded with 50 students</div>
                         </div>
-                        <div className="timeline-item">
-                            <div className="timeline-year">1995</div>
-                            <div className="timeline-desc">First graduating class achieves 100% pass rate</div>
-                        </div>
-                        <div className="timeline-item">
-                            <div className="timeline-year">2005</div>
-                            <div className="timeline-desc">New science complex opened</div>
-                        </div>
-                        <div className="timeline-item">
-                            <div className="timeline-year">2020</div>
-                            <div className="timeline-desc">Named "School of the Year" by Ministry of Education</div>
-                        </div>
+                 
+                    
                     </div>
                 </div>
             </section>
