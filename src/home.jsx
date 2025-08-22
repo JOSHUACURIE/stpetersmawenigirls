@@ -102,17 +102,14 @@ export const Home = () => {
                     <p>Students Enrolled</p>
                 </div>
                 <div className="info-card" ref={el => infoCardsRef.current[1] = el}>
-                    <h3>50+</h3>
+                    <h3>5+</h3>
                     <p>Qualified Teachers</p>
                 </div>
                 <div className="info-card" ref={el => infoCardsRef.current[2] = el}>
-                    <h3>25+</h3>
+                    <h3>3+</h3>
                     <p>Years of Excellence</p>
                 </div>
-                <div className="info-card" ref={el => infoCardsRef.current[3] = el}>
-                    <h3>98%</h3>
-                    <p>University Acceptance</p>
-                </div>
+             
             </section>
 
             <section className="testimonial-section">
@@ -133,7 +130,7 @@ export const Home = () => {
                         </div>
                         <div className="testimonial-author">
                             <h4>Vidah LImaya</h4>
-                            <p>Grade 10 Student</p>
+                            <p>Form 2 Student</p>
                         </div>
                     </div>
                     <div className="testimonial-card">
