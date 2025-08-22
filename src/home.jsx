@@ -123,8 +123,8 @@ export const Home = () => {
                             <p>"St. Peters Maweni Girls has transformed my daughter into a confident, articulate young woman ready to take on the world."</p>
                         </div>
                         <div className="testimonial-author">
-                            <h4>Mrs. Wanjiku</h4>
-                            <p>Parent of Grade 11 Student</p>
+                            <h4>Mr. Josphat Makori</h4>
+                            <p>Parent of Form 2Student</p>
                         </div>
                     </div>
                     <div className="testimonial-card">
@@ -132,7 +132,7 @@ export const Home = () => {
                             <p>"The teachers here don't just teach; they inspire. I've discovered passions I never knew I had."</p>
                         </div>
                         <div className="testimonial-author">
-                            <h4>Grace Mwende</h4>
+                            <h4>Vidah LImaya</h4>
                             <p>Grade 10 Student</p>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ export const Home = () => {
                             <p>"The facilities are world-class, but it's the caring environment that makes this school special."</p>
                         </div>
                         <div className="testimonial-author">
-                            <h4>Dr. Kamau</h4>
+                            <h4>Dr. Caleb Odhiambo</h4>
                             <p>School Board Member</p>
                         </div>
                     </div>
