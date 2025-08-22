@@ -129,7 +129,7 @@ export const Home = () => {
                             <p>"The teachers here don't just teach; they inspire. I've discovered passions I never knew I had."</p>
                         </div>
                         <div className="testimonial-author">
-                            <h4>Vidah LImaya</h4>
+                            <h4>Vidah Limaya</h4>
                             <p>Form 2 Student</p>
                         </div>
                     </div>
